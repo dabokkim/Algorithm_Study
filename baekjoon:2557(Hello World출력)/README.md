@@ -1,6 +1,6 @@
 # <span style="color:orange; font-size:17pt; font-weight:bold">BOJ 2557번 Hello World출력 파이썬(python)  풀이</span>
 
-- [백준 2557번 구간 합 구하기](https://www.acmicpc.net/problem/10999)
+- [백준 2557번 구간 합 구하기](https://www.acmicpc.net/problem/2557)
 <br><br>
 
 <br><br>
