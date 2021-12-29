@@ -1,6 +1,6 @@
 # <span style="color:orange; font-size:17pt; font-weight:bold">BOJ 10869번 사칙연산 파이썬(python)  풀이</span>
 
-- [백준 10869번 사칙연산](https://www.acmicpc.net/problem/10999)
+- [백준 10869번 사칙연산](https://www.acmicpc.net/problem/10869)
 <br><br>
 
 <br><br>
