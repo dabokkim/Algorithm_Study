@@ -1,6 +1,6 @@
 # <span style="color:orange; font-size:17pt; font-weight:bold">BOJ 10171번 고양이 출력 파이썬(python)  풀이</span>
 
-- [백준 10171번 고양이](https://www.acmicpc.net/problem/10999)
+- [백준 10171번 고양이](https://www.acmicpc.net/problem/10171)
 <br><br>
 
 <br><br>
