@@ -37,6 +37,6 @@ def select_sort(list) :<br>
 &nbsp&nbsp&nbsp&nbsp           for j in range(i+1,num):<br>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp               if list[min_number]>list[j]:  # 최소값 구하는 루틴<br>
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                    min_number=j  # 최소값의 인덱스값을 넘겨줌<br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp           list[i], list[min_number] = list[min_number], list[i]<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp         list[i], list[min_number] = list[min_number], list[i]<br>
 select_sort(list)<br>
 print(list)<br>
