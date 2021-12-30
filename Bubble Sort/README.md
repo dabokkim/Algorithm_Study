@@ -36,6 +36,6 @@ def bubble_sort(list) :<br>
 &nbsp &nbsp &nbsp           if list[i]>list[i+1] :<br>
 &nbsp &nbsp &nbsp &nbsp               list[i], list[i+1] = list[i+1], list[i]<br>
 &nbsp &nbsp &nbsp          elif list[i]<=list[i+1] : <br>
-&nbsp &nbsp                continue<br>
+&nbsp &nbsp &nbsp &nbsp               continue<br>
 bubble_sort(list)<br>
 print(list)<br>
