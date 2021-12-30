@@ -26,16 +26,16 @@
 5. 그리고 비교가 끝난 수는 가장 작은 수이므로 가장자리로 옮기고 총 비교횟수를 1회 감소시킨다 
 6. 5번의 과정을 총 n-1번 하되 루프를 한번 돌 때마다 1회씩 
 <p>
-list=[]
-num = int(input("정렬할 숫자의 갯수를 입력하시오 : "))
-for i in range(num):
-    list.append(int(input("정렬할 숫자를 입력하시오 : ")))
-def bubble_sort(list) :
-    for j in range(num-1,0,-1): # 정렬완료된 숫자를 제외한 크기만큼을 비교해야하므로 크기를 1씩 감소시킨다
-        for i in range(j) : # j크기만큼 동안 인접한 두 숫자를 비교하여 정렬을 수행
-            if list[i]>list[i+1] :
-                list[i], list[i+1] = list[i+1], list[i]
-            elif list[i]<=list[i+1] : 
-                continue
-bubble_sort(list)
-print(list)
+list=[] <br>
+num = int(input("정렬할 숫자의 갯수를 입력하시오 : "))<br>
+for i in range(num):<br>
+    list.append(int(input("정렬할 숫자를 입력하시오 : ")))<br>
+def bubble_sort(list) :<br>
+    for j in range(num-1,0,-1): # 정렬완료된 숫자를 제외한 크기만큼을 비교해야하므로 크기를 1씩 감소시킨다<br>
+        for i in range(j) : # j크기만큼 동안 인접한 두 숫자를 비교하여 정렬을 수행<br>
+            if list[i]>list[i+1] :<br>
+                list[i], list[i+1] = list[i+1], list[i]<br>
+            elif list[i]<=list[i+1] : <br>
+                continue<br>
+bubble_sort(list)<br>
+print(list)<br>
