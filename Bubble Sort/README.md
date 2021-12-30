@@ -34,8 +34,8 @@ def bubble_sort(list) :<br>
 &nbsp    for j in range(num-1,0,-1): # 정렬완료된 숫자를 제외한 크기만큼을 비교해야하므로 크기를 1씩 감소시킨다<br>
 &nbsp &nbsp        for i in range(j) : # j크기만큼 동안 인접한 두 숫자를 비교하여 정렬을 수행<br>
 &nbsp &nbsp &nbsp           if list[i]>list[i+1] :<br>
-&nbsp &nbsp &nbsp                list[i], list[i+1] = list[i+1], list[i]<br>
+&nbsp &nbsp &nbsp &nbsp               list[i], list[i+1] = list[i+1], list[i]<br>
 &nbsp &nbsp &nbsp          elif list[i]<=list[i+1] : <br>
-                continue<br>
+&nbsp &nbsp                continue<br>
 bubble_sort(list)<br>
 print(list)<br>
