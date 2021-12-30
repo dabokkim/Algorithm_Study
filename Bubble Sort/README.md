@@ -29,13 +29,13 @@
 list=[] <br>
 num = int(input("정렬할 숫자의 갯수를 입력하시오 : "))<br>
 for i in range(num):<br>
-<blockquote>    list.append(int(input("정렬할 숫자를 입력하시오 : ")))<br>
+&nbsp    list.append(int(input("정렬할 숫자를 입력하시오 : ")))<br>
 def bubble_sort(list) :<br>
-<blockquote>    for j in range(num-1,0,-1): # 정렬완료된 숫자를 제외한 크기만큼을 비교해야하므로 크기를 1씩 감소시킨다<br>
-<blockquote><blockquote>        for i in range(j) : # j크기만큼 동안 인접한 두 숫자를 비교하여 정렬을 수행<br>
-<blockquote><blockquote><blockquote>            if list[i]>list[i+1] :<br>
-<blockquote><blockquote><blockquote><blockquote>                list[i], list[i+1] = list[i+1], list[i]<br>
-<blockquote><blockquote><blockquote>           elif list[i]<=list[i+1] : <br>
+&nbsp    for j in range(num-1,0,-1): # 정렬완료된 숫자를 제외한 크기만큼을 비교해야하므로 크기를 1씩 감소시킨다<br>
+&nbsp &nbsp        for i in range(j) : # j크기만큼 동안 인접한 두 숫자를 비교하여 정렬을 수행<br>
+&nbsp &nbsp &nbsp           if list[i]>list[i+1] :<br>
+&nbsp &nbsp &nbsp                list[i], list[i+1] = list[i+1], list[i]<br>
+&nbsp &nbsp &nbsp          elif list[i]<=list[i+1] : <br>
                 continue<br>
 bubble_sort(list)<br>
 print(list)<br>
