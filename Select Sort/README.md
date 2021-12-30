@@ -30,12 +30,13 @@ list=[] <br>
 num = int(input("정렬할 숫자의 갯수를 입력하시오 : "))<br>
 for i in range(num):<br>
 &nbsp    list.append(int(input("정렬할 숫자를 입력하시오 : ")))<br>
+ <br>
 def select_sort(list) :<br>
 &nbsp&nbsp        for i in range(num-1) : <br>
 &nbsp&nbsp&nbsp            min_number=i # 최소값을 저장할 변수 초기화<br>
 &nbsp&nbsp&nbsp&nbsp           for j in range(i+1,num):<br>
-&nbsp&nbsp&nbsp&nbsp               if list[min_number]>list[j]:  # 최소값 구하는 루틴<br>
-&nbsp&nbsp&nbsp                    min_number=j  # 최소값의 인덱스값을 넘겨줌<br>
- &nbsp&nbsp           list[i], list[min_number] = list[min_number], list[i]<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp               if list[min_number]>list[j]:  # 최소값 구하는 루틴<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp                    min_number=j  # 최소값의 인덱스값을 넘겨줌<br>
+&nbsp&nbsp&nbsp&nbsp           list[i], list[min_number] = list[min_number], list[i]<br>
 select_sort(list)<br>
 print(list)<br>
