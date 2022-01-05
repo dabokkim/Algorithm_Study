@@ -24,7 +24,7 @@
 T=int(input()) <br>
 <br>
 for i in range (0,T,1) : <br>
-&nbsp A,B=input().split() <br>
+&nbsp    A,B=input().split() <br>
 &nbsp    A=int(A) <br>
 &nbsp    B=int(B) <br>
 &nbsp    print(A+B) <br>
