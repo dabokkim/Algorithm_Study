@@ -17,12 +17,12 @@
 # <span style="color: red; font-size:15pt">문제 풀이</span>
 문자를 입력받을 때 split()함수를 통해서 구분해준뒤 캐스팅한다. <br>
 이후에 사칙연산의 식을 사용하여 계산한다. <br>
-<p>
-A,B = input().split()
-A = int(A)
-B = int(B)
-print(A+B)
-print(A-B)
-print(A*B)
-print(int(A/B))
-print(int(A%B))
+<p><br>
+A,B = input().split() <br>
+A = int(A) <br>
+B = int(B) <br>
+print(A+B) <br>
+print(A-B) <br>
+print(A*B) <br>
+print(int(A/B)) <br>
+print(int(A%B)) <br>
