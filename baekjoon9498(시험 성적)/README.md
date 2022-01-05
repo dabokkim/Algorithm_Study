@@ -24,15 +24,15 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 # <span style="color: red; font-size:15pt">문제 풀이</span>
 문자를 입력받을 때 split()함수를 통해서 구분해준뒤 캐스팅한다. <br>
 입력 받은 수를 if를 사용하여 조건식 만들기 <br>
-<p>
-score = int(input())
-if score>89 and score<=100 :
-    print("A")
-elif score>79 and score<90 :
-    print("B")
-elif score>69 and score<80 :
-    print("C")
-elif score>59 and score<70 :
-    print("D")
-else :
-    print("F")
+<p><br>
+score = int(input()) <br>
+if score>89 and score<=100 : <br>
+&nbsp    print("A") <br>
+elif score>79 and score<90 : <br>
+&nbsp    print("B") <br>
+elif score>69 and score<80 : <br>
+&nbsp    print("C") <br>
+elif score>59 and score<70 : <br>
+&nbsp    print("D") <br>
+else : <br>
+&nbsp    print("F") <br>
