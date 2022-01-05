@@ -20,11 +20,11 @@
 # <span style="color: red; font-size:15pt">문제 풀이</span>
 1. 반복할 횟수를 T만큼 입력받는다. <br>
 2. 반복문을 통행 T만큼 A+B를 반복하여 실행한다. <br>
-<p>
+<p><br>
 T=int(input()) <br>
-
+<br>
 for i in range (0,T,1) : <br>
-&nbsp    A,B=input().split() <br>
+&nbsp A,B=input().split() <br>
 &nbsp    A=int(A) <br>
 &nbsp    B=int(B) <br>
 &nbsp    print(A+B) <br>
