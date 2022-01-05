@@ -24,14 +24,14 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 # <span style="color: red; font-size:15pt">문제 풀이</span>
 문자를 입력받을 때 split()함수를 통해서 구분해준뒤 캐스팅한다. <br>
 입력 받은 수를 if를 사용하여 조건식 만들기 <br>
-<p>
-A,B = input().split()
-A =int(A)
-B =int(B)
-
-if A<B :
-    print("<")
-elif A>B :
-    print(">")
-elif A==B :
-    print("==") 
+<p><br>
+A,B = input().split() <br>
+A =int(A) <br>
+B =int(B) <br>
+<br>
+if A<B : <br>
+&nbsp    print("<") <br>
+elif A>B : <br>
+&nbsp    print(">") <br>
+elif A==B : <br>
+&nbsp    print("==")  <br>
