@@ -23,8 +23,8 @@
 3가지 문자를 입력받을때 split()함수를 통해서 구분해준뒤 캐스팅한다. <br>
 이후에 문제의 주어진 식을 사용한다. <br>
 <p>
-A,B,C = input().split()
-A =int(A)
-B =int(B)
-C =int(C)
-print((A+B)%C,((A%C) + (B%C))%C,(A*B)%C,((A%C) * (B%C))%C, sep='\n')
+A,B,C = input().split() <br> 
+A =int(A) <br>
+B =int(B) <br>
+C =int(C) <br>
+print((A+B)%C,((A%C) + (B%C))%C,(A*B)%C,((A%C) * (B%C))%C, sep='\n') <br>
