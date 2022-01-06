@@ -33,7 +33,6 @@ Python을 사용하고 있다면, input 대신 sys.stdin.readline을 사용할 �
 3. sys를 import하여 sys.stdin.readline()으로 문자를 받아오면 input()보다 더 빠른 속도로 처리할 수 있다. <br>
 <p>
 import sys #sys를 포함하겠다는 것으로 sys.stdin.readline() 사용가능 -->input대신에 사용 <br>
-<br>
 T=int(input()) <br>
 for i in range(T) : <br>
 &nbsp    A,B=sys.stdin.readline().split() <br>
